@@ -5,14 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube</title>
-    <link rel="stylesheet" href="youtube.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/videos.css">
+    <link rel="stylesheet" href="./styles/header.css">
 </head>
 <body>
     
-    <input class="search-bar" type="text" placeholder="Search">
+    <div class="header">
+        <div class="left-section">
+            <img class="menu-ico" src="./Icons/hamburger-menu.svg" alt="hamburger-menu">
+            <img class="youtube-ico" src="./Icons/youtube-logo.svg" alt="youtube-logo">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-ico" src="./Icons/search.svg" alt="search-ico">
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-ico" src="./Icons/voice-search-icon.svg" alt="voice-search-ico">
+            </button>
+        </div>
+        <div class="right-section">
+            <img src="./Icons/upload.svg" alt="upload-ico">
+            <img src="./Icons/youtube-apps.svg" alt="youtube-apps-ico">
+            <img src="./Icons/notifications.svg" alt="notifications-ico">
+            <img src="./Icons/mychannel-profile.jpg" alt="mychannel-profile">
+        </div>
+    </div>
 
     <div class="video-preview-grid">
 
