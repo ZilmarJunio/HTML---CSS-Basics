@@ -11,6 +11,7 @@
     left: 0;
     height: 55px;
     border-bottom: 1px solid lightgray;
+    z-index: 100;
 }
 
 /*Left Section*/
@@ -93,6 +94,21 @@
 }
 .youtube-apps-ico{
     height: 24px;
+}
+.notifications-ico-container{
+    position: relative;
+}
+.notifications-counter{
+    font-family: Roboto, Arial;
+    position: absolute;
+    background: red;
+    color: white;
+    top: -2px;
+    right: -5px;
+    padding: 0px 4px;
+    border-radius: 50%;
+    font-size: 12px;
+    border: solid;
 }
 .notifications-ico{
     height: 24px;
