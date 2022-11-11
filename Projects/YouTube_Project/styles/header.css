@@ -1,10 +1,42 @@
+/*General*/
+
 .header{
-    height: 55px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 55px;
+    border-bottom: 1px solid lightgray;
 }
 
+/*Left Section*/
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.menu-ico{
+    height: 24px;
+    margin: 0 24px;
+}
+.youtube-ico{
+    height: 20px;
+}
+
+/*Middle Section*/
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-right: 35px;
+    margin-left: 70px;
+    max-width: 500px;
+}
 .search-bar{
     flex: 1;
     height: 36px;
@@ -16,34 +48,11 @@
     border-radius: 2px;
     box-shadow: inset 1px 2px 3px
     rgba(0, 0, 0, 0.05);
+    width: 0;
 }
-
 .search-bar::placeholder{
     font-family: Roboto, Arial;
     font-size: 16px;
-}
-
-.left-section{
-    display: flex;
-    align-items: center;
-}
-.middle-section{
-    display: flex;
-    flex: 1;
-    align-items: center;
-    margin-right: 35px;
-    margin-left: 70px;
-    max-width: 500px;
-}
-.right-section{
-    width: 200px;
-}
-.menu-ico{
-    height: 24px;
-    margin: 0 24px;
-}
-.youtube-ico{
-    height: 20px;
 }
 .search-button{
     height: 40px;
@@ -54,7 +63,6 @@
     margin-left: -1px;
     margin-right: 10px;
 }
-
 .search-ico{
     height: 25px;
     vertical-align: middle;
@@ -69,3 +77,38 @@
     height: 24px;
     vertical-align: middle;
 }
+
+/*Right Section*/
+
+.right-section{
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.upload-ico{
+    height: 24px;
+}
+.youtube-apps-ico{
+    height: 24px;
+}
+.notifications-ico{
+    height: 24px;
+}
+.mychannel-profile{
+    height: 24px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
