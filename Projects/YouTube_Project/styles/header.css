@@ -60,6 +60,17 @@
     border-color: rgb(101, 101, 155);
     outline: none;
 }
+
+.search-button,
+.voice-search-button,
+.upload-ico-container,
+.youtube-apps-ico-container,
+.notifications-ico-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .search-button{
     height: 40px;
     width: 60px;
@@ -71,12 +82,36 @@
     margin-left: 0px;
     margin-right: 10px;
 }
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-ico-container .tooltip,
+.youtube-apps-ico-container .tooltip,
+.notifications-ico-container .tooltip{
+    font-family: Roboto, Arial;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    padding: 10px 6px;
+    bottom: -40px;
+    border-radius: 2px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    white-space: nowrap;
+}
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-ico-container:hover .tooltip,
+.youtube-apps-ico-container:hover .tooltip,
+.notifications-ico-container:hover .tooltip{
+    opacity: 1;
+}
 .search-button:hover{
     background-color: rgba(68, 68, 68, 0.1);
 }
 .search-ico{
     height: 25px;
-    vertical-align: middle;
 }
 .voice-search-button{
     height: 40px;
@@ -86,7 +121,6 @@
 }
 .voice-search-ico{
     height: 24px;
-    vertical-align: middle;
 }
 
 /*Right Section*/
