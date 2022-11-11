@@ -60,17 +60,6 @@
     border-color: rgb(101, 101, 155);
     outline: none;
 }
-
-.search-button,
-.voice-search-button,
-.upload-ico-container,
-.youtube-apps-ico-container,
-.notifications-ico-container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .search-button{
     height: 40px;
     width: 60px;
@@ -81,6 +70,17 @@
     border-color: rgba(0, 0, 0, 0.05);
     margin-left: 0px;
     margin-right: 10px;
+    cursor: pointer;
+}
+.search-button,
+.voice-search-button,
+.upload-ico-container,
+.youtube-apps-ico-container,
+.notifications-ico-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .search-button .tooltip,
 .voice-search-button .tooltip,
@@ -118,6 +118,7 @@
     width: 40px;
     border-radius: 50%;
     border: none;
+    cursor: pointer;
 }
 .voice-search-ico{
     height: 24px;

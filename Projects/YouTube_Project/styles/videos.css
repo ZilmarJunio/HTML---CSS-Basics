@@ -41,7 +41,8 @@
     vertical-align: top;
 }
 .channel-picture-profile{
-    width: 43px;
+    width: 45px;
+    height: 45px;
     border-radius: 100%;
     object-fit: cover;
 }
